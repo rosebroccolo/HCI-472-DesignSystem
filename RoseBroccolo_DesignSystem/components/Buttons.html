@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+
+    <title>Template: Bootstrap v5.3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="/css/stylesheet.css" rel="stylesheet">
+
+
+    <style>
+        .row {
+            display: flex;
+            align-items: center;
+            padding: 50px 0;
+            border-bottom: 1px solid #4A535E;
+        }
+
+        h1{
+            margin-top: 0;
+            font-size: 3.052rem;
+            font-weight: 700;
+            font-style: normal;
+            font-family: 'Merriweather', serif;
+
+        }
+
+
+    </style>
+    
+    <!-- Custom styles for this template -->
+    <link href="../css/sidebars.css" rel="stylesheet">
+  </head>
+  <body>
+    
+
+
+<main class="d-flex flex-nowrap">
+ 
+  <!-- This determines the width of the sidebar. Change if needed. -->
+    <div class="flex-shrink-0 p-3"  style="width: 200px; background-color: #1A1D21">
+    
+    
+    <a href="../index.html" class="d-flex align-items-center text-center pb-3 mb-3 text-decoration-none border-bottom">
+
+        <img class="card-img-top" src="../images/LOGO_DARK.png" alt="Logo">
+    </a>
+    
+    <ul class="list-unstyled ps-0">
+        <li class="mb-1">
+            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" 
+            data-bs-toggle="collapse" data-bs-target="#foundations-collapse" aria-expanded="false">
+            Foundations
+            </button>
+            <div class="collapse" id="foundations-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="../foundation/type.html" class ="d-inline-flex text-decoration-none rounded">Typography</a></li>
+                <li><a href="../foundation/color.html" class="d-inline-flex text-decoration-none rounded">Color</a></li>
+                <li><a href="../foundation/logo.html" class="d-inline-flex text-decoration-none rounded">Logo</a></li>
+        
+              </ul>
+            </div>
+          </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" 
+        data-bs-toggle="collapse" data-bs-target="#components-collapse" aria-expanded="true">
+         Components
+        </button>
+        <div class="collapse show" id="components-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="#" class="d-inline-flex text-decoration-none rounded" style="background-color: #4377FF">Buttons</a></li>
+            <li><a href="Navbars.html" class="d-inline-flex text-decoration-none rounded">Navigation Bars</a></li>
+            <li><a href="Cards.html" class="d-inline-flex text-decoration-none rounded">Cards</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" 
+        data-bs-toggle="collapse" data-bs-target="#patterns-collapse" aria-expanded="false">
+          Page Patterns
+        </button>
+        <div class="collapse" id="patterns-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="../patterns/desktopLayout.html" class="d-inline-flex text-decoration-none rounded">Homepage</a></li>
+            <li><a href="../patterns/projectDesktopLayout.html" class="d-inline-flex text-decoration-none rounded">Project Details</a></li>
+          </ul>
+        </div>
+      </li>
+   
+    </ul>
+  </div>
+  <div class="b-example-divider b-example-vr"></div>
+
+
+
+
+
+        <!-- Page Content  -->
+        <div class="container">
+            <div class="row p-5 pt-6">
+                <div class="btn-container" id="content">
+
+                    <h1>Buttons</h1>
+
+                    <p>This design system includes three styles of buttons.</p>
+                    <br>
+                    <h2 class="mb-4">Button States</h2>
+                    <div class="row mb-4">
+                        <div class="col-3">
+                            <h3>Normal</h3>
+                        </div>
+                        <div class="col-3"><button class="btn btn-primary-normal">Primary</button></div>
+                        <div class="col-3"><button class="btn btn-secondary-normal">Secondary</button></div>
+                        <div class="col-3"><button class="btn btn-inverse-normal">Inverse</button></div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-3">
+                            <h3>Hover</h3>
+                        </div>
+                        <div class="col-3"><button class="btn btn-primary-btn-hover">Primary</button></div>
+                        <div class="col-3"><button class="btn btn-secondary-btn-hover">Secondary</button></div>
+                        <div class="col-3"><button class="btn btn-inverse-btn-hover">Inverse</button></div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-3">
+                            <h3>Focus</h3>
+                        </div>
+                        <div class="col-3"><button class="btn btn-primary-btn-focus">Primary</button></div>
+                        <div class="col-3"><button class="btn btn-secondary-btn-focus">Secondary</button></div>
+                        <div class="col-3"><button class="btn btn-inverse-btn-focus">Inverse</button></div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-3">
+                            <h3>Disabled</h3>
+                        </div>
+                        <div class="col-3"><button disabled="" class="btn btn-primary">Primary</button></div>
+                        <div class="col-3"><button disabled="" class="btn btn-secondary">Secondary</button></div>
+                        <div class="col-3"><button disabled="" class="btn btn-inverse">Inverse</button></div>
+                    </div>
+
+                    <h2>Accessibility Considerations</h2>
+                    <p>When designing buttons for digital interfaces, it's essential to consider accessibility to ensure
+                        that all users, including those with disabilities, can interact with and understand the
+                        functionality of the buttons. Here are some key accessibility considerations for buttons:</p>
+                    <ul>
+                        <li>Provide Clear and Concise Labels</li>
+                        <li>Use buttons to initiate actions.</li>
+                        <li>Make sure there is contrast between text and background</li>
+                        <li>Buttons must contain descriptive text.</li>
+                        <li>Indicate clearly the current state of the button</li>
+                    </ul>
+                    <br>
+                    <h3>Code Examples</h3>
+                    <br>
+                    <h4>Primary Button Normal</h4>
+                    <pre><code>&lt;button class="btn btn-primary-normal"&gt;Descriptive text&lt;/button&gt;</code></pre>
+
+                    <h4>Secondary Button Hover</h4>
+                    <pre><code>&lt;button class="btn btn-secondary-hover"&gt;Descriptive text&lt;/button&gt;</code></pre>
+
+                    <h4>Inverse Button Focus</h4>
+                    <pre><code>&lt;button class="btn btn-inverse-focus"&gt;Descriptive text&lt;/button&gt;</code></pre>
+
+                </div> <!-- Content  -->
+            </div><!-- Row  -->
+
+            <footer class="footer">
+                <div class="container text-center">
+              <span class="text-footer">© copyright Rose Broccolo | November 2023
+              </span>
+                </div>
+            </footer>
+
+        </div><!-- Container -->
+
+
+    </div>
+    <script src="../js/prism.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+
+
+
+
+</main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+<script src="../js/sidebars.js"></script>
+      <script src="../js/prism.js"></script> 
+  </body>
+</html>

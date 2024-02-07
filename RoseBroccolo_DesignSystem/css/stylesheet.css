@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+html {
+    font-size: 100%;
+} /*16px*/
+
+body {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    line-height: 1.75;
+    background-color: #F6F5F5;
+    color: #1A1D21;
+}
+
+
+p {
+    margin-bottom: 1rem;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.btn {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.btn-primary-normal {
+    background-color: #4377FF;
+    color: #F6F5F5;
+}
+
+.btn-secondary-normal {
+    background-color: #1A1D21;
+    color: #F6F5F5;
+
+}
+.btn-inverse-normal {
+    background-color: #F6F5F5;
+    color: #4A535E;
+}
+
+.btn-primary-btn-hover {
+    background-color: rgba(67, 119, 255, 0.50);
+ }
+
+.btn-secondary-btn-hover {
+    background-color: #4A535E;
+    color: #F6F5F5;
+}
+
+.btn-focus-btn-hover {
+    background-color: #4377FF;
+    color: #F6F5F5;
+}
+
+.btn-primary-btn-focus {
+    background-color: #4377FF;
+    color: #F6F5F5;
+    border-color: #1A1D21;
+    border-width: medium;
+}
+.btn-secondary-btn-focus {
+    background-color: #1A1D21;
+    color: #F6F5F5;
+    border-color: #4377FF;
+    border-width: medium;
+}
+
+.btn-inverse-btn-focus {
+    border-color: #4A535E;
+    border-width: medium;
+}
+
+
+code {
+    color: deeppink;
+}
+
+pre {
+    color: #4A535E;
+}
